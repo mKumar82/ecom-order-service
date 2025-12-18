@@ -1,9 +1,8 @@
-package com.springboot.microservice.entity;
+package com.ecom.OrderService.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import java.util.UUID;
@@ -31,9 +30,6 @@ public class Order {
 
     @Column(nullable = false)
     private LocalDateTime createdAt;
-
-//    @Column(nullable = false)
-//    private OrderStatus orderStatus;
 
     public void markPaymentCompleted(){
         this.status = OrderStatus.PAID;

@@ -1,4 +1,4 @@
-package com.springboot.microservice.entity;
+package com.ecom.OrderService.entity;
 
 public enum OrderStatus {
     CREATED,

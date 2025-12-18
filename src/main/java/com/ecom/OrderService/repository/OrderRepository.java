@@ -1,6 +1,6 @@
-package com.springboot.microservice.repository;
+package com.ecom.OrderService.repository;
 
-import com.springboot.microservice.entity.Order;
+import com.ecom.OrderService.entity.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

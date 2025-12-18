@@ -1,9 +1,9 @@
-package com.springboot.microservice.controller;
+package com.ecom.OrderService.controller;
 
-import com.springboot.microservice.dto.CreateOrderRequest;
-import com.springboot.microservice.dto.OrderResponse;
-import com.springboot.microservice.entity.Order;
-import com.springboot.microservice.service.OrderService;
+import com.ecom.OrderService.dto.CreateOrderRequest;
+import com.ecom.OrderService.dto.OrderResponse;
+import com.ecom.OrderService.entity.Order;
+import com.ecom.OrderService.service.OrderService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
